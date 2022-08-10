@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(rgb(25, 60, 158),rgb(6, 255, 18)) no-repeat;
+}
+.container{
+    background-color: white;
+    height: 22rem;
+    width: 30rem;
+    margin:auto auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px,
+                -1px -1px 10px;
+}
+.scores{
+    text-align: right;
+    margin: 20px ;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: large;
+    font-display: bold;
+}
+.weapons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.weapons button{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(0, 255, 0) ;
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.weapons button:hover{
+    transform: scale(1.2);
+}
+.details{
+    text-align: center;
+    font-family: poppins;
+    word-spacing: 
+}
+#result{
+    height: 30px;
+    width: 200px;
+    margin: AUTO;
+    border-radius: 10PX;
+margin-top: 10PX;}
